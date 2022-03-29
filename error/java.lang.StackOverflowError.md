@@ -21,7 +21,7 @@ if문으로 number가 1이 되었을 때 1을 return하면서 메소드를 종�
 */
 public static int factorial(int number) {
     if(number == 1) {
-        return 1; //
+        return 1;
     } else {
         return number * factorial(number-1);
     }
